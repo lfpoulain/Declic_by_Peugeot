@@ -2,22 +2,12 @@
 
 ## 🎬 À propos
 
-Bienvenue dans le dépôt des projets **LFPxDeclic**, une collaboration entre **Les Frères Poulain** et **Peugeot Déclic**.
-
-### Peugeot Déclic
-
-> *Depuis plus de deux siècles, Peugeot conçoit des objets qui transforment le quotidien, de l'outillage à l'art de la table, des premiers pas de l'automobile aux équipements de la maison, en passant par la mode et l'œnologie. Avec Déclic, Peugeot vous invite à explorer en vidéo l'univers de celles et ceux dont l'ingéniosité a façonné le monde et continue de l'inventer. Préparez-vous à être surpris par ces esprits créatifs qui réenchantent notre quotidien.*
-
-### Notre mission
-
-Les Frères Poulain ont été missionnés par Peugeot Déclic pour créer une série de vidéos "Construire avec", où nous partageons notre passion pour la création et l'innovation à travers des projets DIY innovants et accessibles.
+Bienvenue dans le dépôt des projets **LFPxDeclic**
 
 ## 🛠️ Projets disponibles
 
 ### 🎮 [Manette Bluetooth ESP32](./manette-bluetooth-esp32/)
 
-**Épisode** : Construire sa manette de jeu avec un doigt  
-**Description** : Apprenez à créer votre propre manette de jeu Bluetooth en utilisant un ESP32, un joystick analogique et 4 boutons. Un projet parfait pour comprendre l'électronique embarquée et la programmation de périphériques sans fil.
 
 **Points clés** :
 - Connexion Bluetooth BLE
@@ -29,14 +19,10 @@ Les Frères Poulain ont été missionnés par Peugeot Déclic pour créer une s�
 
 ---
 
-### 🚀 Projets à venir
-
-D'autres projets passionnants sont en préparation dans le cadre de notre collaboration avec Peugeot Déclic. Restez connectés !
-
 ## 📺 Où nous trouver
 
-- **Chaîne Peugeot Déclic** : [Lien vers la chaîne]
-- **Les Frères Poulain** : [Nos réseaux]
+- **Chaîne Peugeot Déclic** : [https://www.youtube.com/c/D%C3%89CLICbyPeugeot]
+- **Les Frères Poulain** : [https://www.youtube.com/c/lesfrerespoulain]
 
 ## 🤝 Contribuer
 
