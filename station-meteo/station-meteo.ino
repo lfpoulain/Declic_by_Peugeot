@@ -28,8 +28,8 @@
 #include "web_pages.h"
 
 // ========= WiFi config =========
-const char* WIFI_SSID = "Domo-EntreMakers";      // TODO: set SSID
-const char* WIFI_PASSWORD = "CLMDPdelaDOMO";  // TODO: set password
+const char* WIFI_SSID = "VOTREWIFI";      // TODO: set SSID
+const char* WIFI_PASSWORD = "PASSWORD";  // TODO: set password
 
 // ========= Pin assignments =========
 // Default ESP32 I2C: SDA=21, SCL=22. Change if needed.
