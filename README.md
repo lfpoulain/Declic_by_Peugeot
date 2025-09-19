@@ -1,44 +1,55 @@
-# LFPxDeclic - Les Frères Poulain x Peugeot Déclic
+# LFPxDeclic — Les Frères Poulain x Peugeot DÉCLIC
 
-## 🎬 À propos
+Bienvenue dans le dépôt des projets LFPxDeclic. Ce repo rassemble des réalisations open source présentées avec Peugeot DÉCLIC et Les Frères Poulain.
 
-Bienvenue dans le dépôt des projets **LFPxDeclic**
+## Projets
 
-## 🛠️ Projets disponibles
+Les deux projets sont au même niveau et complémentaires. Choisissez selon votre besoin — IoT météo ou interaction BLE.
 
-### 🎮 [Manette Bluetooth ESP32](./manette-bluetooth-esp32/)
+### Station météo (ESP32)
+Interface web embarquée pour suivre température, humidité, pression (BME280), luminosité (BH1750), vitesse du vent (anémomètre à reed) et pluie (LM393 AO).
 
+- Matériel: ESP32, BME280 (I2C), BH1750 (I2C), anémomètre reed, capteur pluie LM393 (AO)
+- Interface: serveur web local (`/`, `/advanced`, `/config`), API JSON (`/api/sensors`, `/api/config`)
+- Fonctionnalités: calibration pluie/ensoleillement, affichage simple et avancé, seuils de couleurs
 
-**Points clés** :
-- Connexion Bluetooth BLE
-- Compatible PC, smartphones et tablettes
-- Code open source et personnalisable
-- Idéal pour les makers débutants et confirmés
+[Accéder au projet station-meteo](./station-meteo/README.md)
 
-[→ Accéder au projet](./manette-bluetooth-esp32/README.md)
+Démarrage rapide (résumé):
+1. Ouvrir `station-meteo/station-meteo.ino` dans l’IDE Arduino
+2. Renseigner `WIFI_SSID` et `WIFI_PASSWORD`
+3. Téléverser sur un ESP32 et visiter `http://<ip_esp32>/`
+4. Faire la calibration depuis `/config`
 
----
+### Manette Bluetooth ESP32 (BLE)
+Gamepad BLE personnalisable compatible PC, smartphones et tablettes (joystick analogique + boutons ABXY).
 
-## 📺 Où nous trouver
+- Matériel: ESP32, joystick analogique, 4 boutons, câblage simple avec pull-ups internes
+- Bibliothèques: Bounce2, ESP32-BLE-Gamepad
+- Fonctionnalités: mapping axes/boutons, debounce, zone morte réglable
 
-- **Chaîne Peugeot Déclic** : [https://www.youtube.com/c/D%C3%89CLICbyPeugeot]
-- **Les Frères Poulain** : [https://www.youtube.com/c/lesfrerespoulain]
+[Accéder au projet manette-bluetooth-esp32](./manette-bluetooth-esp32/README.md)
 
-## 🤝 Contribuer
+Démarrage rapide (résumé):
+1. Installer le support ESP32 dans Arduino IDE (cartes Espressif)
+2. Installer `Bounce2` et `ESP32-BLE-Gamepad`
+3. Flasher le code sur un ESP32
+4. Appairer le périphérique Bluetooth nommé « Declic »
 
-Nous encourageons la communauté à :
-- Partager vos réalisations basées sur nos projets
-- Proposer des améliorations
-- Suggérer de nouvelles idées de projets
+## Où nous trouver
+- Chaîne Peugeot DÉCLIC: https://www.youtube.com/c/D%C3%89CLICbyPeugeot
+- Les Frères Poulain: https://www.youtube.com/c/lesfrerespoulain
 
-## 📄 Licence
+## Contribuer
+Les contributions sont les bienvenues:
+- Partagez vos réalisations basées sur ces projets
+- Ouvrez des issues/PR pour corrections et améliorations
+- Proposez de nouvelles idées
 
-Tous les projets de ce dépôt sont open source. Consultez les README individuels pour plus de détails sur chaque projet.
+## Licence
+Les projets de ce dépôt sont open source. Consultez les README de chaque dossier pour les détails spécifiques.
 
-## ✨ Remerciements
+## Remerciements
+Merci à Peugeot DÉCLIC pour leur confiance et l’occasion de partager des projets utiles et accessibles.
 
-Un grand merci à **Peugeot Déclic** pour leur confiance et cette belle opportunité de partager notre passion pour la création et l'innovation.
-
----
-
-*"L'ingéniosité au service du quotidien"* - LFPxDeclic
+— « L’ingéniosité au service du quotidien » — LFPxDeclic
